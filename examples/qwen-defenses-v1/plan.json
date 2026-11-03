@@ -1,0 +1,13 @@
+{
+  "protocol": "qwen_defenses_v1",
+  "base_protocol": "qwen_label_flip_v3",
+  "canary_count": 36,
+  "canary_sha256": "a4a5fb13b9f9be41d3ac1196c704dc17222623039ab2a0de18c8616a44d82ccb",
+  "accuracy_threshold": 0.6666666666666666,
+  "min_class_recall": 0.75,
+  "max_A_to_B": 0.1,
+  "max_invalid_rate": 0,
+  "design": "exploratory after attack study; policy fixed before canary inference",
+  "threat": "attacker can edit candidate train, not trusted manifest or canary",
+  "source_sha256": "cb0b317403f2f78c1efc6b1d8f7ffcec902eb3d4c2650b21d80f2377c495ef07"
+}

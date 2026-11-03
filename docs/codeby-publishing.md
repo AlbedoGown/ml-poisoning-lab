@@ -5,6 +5,7 @@
 - `article-qwen.md` — исходник текста для редакторских правок.
 - `article-qwen.bbcode.txt` — тело статьи в BBCode, заголовок темы указывается отдельно.
 - `../examples/qwen-v3/qwen-poisoning.png` — график для добавления как вложения.
+- `../examples/qwen-defenses-v1/defenses.png` — второй график, проверка защит.
 - `../examples/qwen-v3/results.json` — полные измерения для проверки цифр.
 - `qwen-methodology.md` — подробности методики и история диагностических изменений.
 
