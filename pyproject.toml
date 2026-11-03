@@ -9,8 +9,12 @@ description = "Воспроизводимая лаборатория подме�
 requires-python = ">=3.11,<3.15"
 dependencies = ["numpy>=2.2,<3", "scikit-learn>=1.6,<2", "matplotlib>=3.10,<4"]
 
+[project.optional-dependencies]
+qwen = ["mlx-lm[train]>=0.30,<1; sys_platform == 'darwin' and platform_machine == 'arm64'"]
+
 [project.scripts]
 ml-poisoning-lab = "ml_poisoning_lab.cli:main"
+qwen-poisoning-lab = "ml_poisoning_lab.qwen.runner:main"
 
 [dependency-groups]
 dev = ["pytest>=8,<10", "ruff>=0.11,<1"]
