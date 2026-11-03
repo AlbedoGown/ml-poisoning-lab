@@ -132,7 +132,7 @@ uv run --frozen --extra qwen python -m ml_poisoning_lab.qwen.report artifacts/qw
 ![Эксперимент с Qwen](examples/qwen-v3/qwen-poisoning.png)
 
 - [Все измерения и протокол финального запуска](examples/qwen-v3/README.md).
-- [Черновик статьи для Codeby](docs/article-qwen.md).
+- [Черновик статьи для Codeby](docs/article-qwen.md), [локальный предпросмотр](docs/article-qwen-preview.html) и [BBCode](docs/article-qwen.bbcode.txt).
 - [BBCode и подготовка к переносу на Codeby](docs/codeby-publishing.md).
 
 На Codeby ничего не опубликовано; код и статья пока хранятся в приватном репозитории.
